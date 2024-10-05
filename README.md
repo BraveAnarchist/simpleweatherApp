@@ -1,20 +1,18 @@
 
-# Warehouse Management System
+# Weather App
 
-This project implements a weather detail system using ReactJS/VueJS. It provides features for listing, searching, filtering, and editing warehouse information.
+This project implements a weather detail system using ReactJS. It provides weather data for five cities.
 
 ## Technologies Used
 
 * **React:** Frontend library for building the user interface.
-* **Material UI:** Open-source React component library that implements Google's Material Design.
-* **Redux:** For sharing data across components.
+* **Tailwind:** Tailwind CSS is an open-source CSS framework.
+
 ##  Features
 
-* **Search Name:** Allows users to search warehouses by name.
-* **Search City:** Filter by a specific city.
-* **Search Cluster:** Filter by a specific cluster.
-* **Search Space Available:** Filter by a range of available space.
-* **Navigation:**  Clicking on "more details" redirects to the details page.
+* **Get Weather:** Gets the weather details of the selected city.
+* **Search:** Highlights the searched city.
+* **Delete:** Remove the weather details of a particular city.
 
 ## Run Locally
 
@@ -27,27 +25,26 @@ This project implements a weather detail system using ReactJS/VueJS. It provides
 
  Images of Components:
 
-Warehouse Listing Page:
+Landing page:
 
-![alt text](<Annotation 2024-09-01 194031.png>)
+![alt text](<Annotation 2024-10-05 220740.png>)
 
-Warehouse Details Page:
+Getting weather data:
 
-![alt text](./images/warehouse-details.png)
+![alt text](<Annotation 2024-10-05 220838.png>)
 
-Search Filter:
+Searching city:
 
-![alt text](./images/search-filter.png)
+![alt text](<Annotation 2024-10-05 220949.png>)
 
 ## Learning
 
 * **SReactJS fundamental:** This project reinforced my understanding of React components, state management, props, events, and lifecycle methods.
-* **Material-UI:** I learned how to implement Material Design components and customize their styling.
+
 
 ## Future Improvements:
 
 * **Backend integration:**  Integrate with a backend server and database for persistent data storage.
-* **Advanced filtering and sorting:** Provide more flexible filtering options and allow users to sort the warehouse list.
 * **Error handlingr:** Improve error handling and provide more informative feedback to the user.
 
 
