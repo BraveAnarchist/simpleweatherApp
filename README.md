@@ -17,7 +17,7 @@ This project implements a weather detail system using ReactJS. It provides weath
 ## Run Locally
 
  1. Clone the repository: 
- `git clone https://github.com/BraveAnarchist/warehouse`
+ `git clone https://github.com/BraveAnarchist/simpleweatherApp`
  
  2. Run "npm install".
 
